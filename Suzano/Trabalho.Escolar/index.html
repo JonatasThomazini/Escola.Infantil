@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzaninho</title>
+    <link rel="shortcut icon" href="icone/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <!-- Fontes GOOGLE   -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+  
+<body>
+    <!-- Libras  -->
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+    <!-- Começo do  Menu  -->
+    
+    <div class="cabecario">
+        <a href="index.html">Inicio</a>
+        <a href="#">Estrutura</a>
+        <a class="moddal" href="daltonismo.html">Modo Daltonico</a>
+        <a href="#">Contato</a>
+    </div>
+
+    <!-- FIM do  Menu  -->
+
+
+
+    <div class="cimg">
+        <img src="Imagem/cabecario.png" alt="">
+    </div>
+
+     <!-- Botoes de texto, text area, Imagem ao lado do formulario, BOTAO DE ENVIAR  -->
+
+    <div class="principal">
+        <form action="form.escrita">
+                <div class="formnomeemail"> 
+                    <label for="Nome">Nome</label>
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+                    <label for="Nome">Email-Escolar</label>
+                    <input type="text" name="email" id="iemail" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <h1 class="pferias">MINHAS FERIAS</h1>
+                </div>
+                <div>
+                    <textarea class="textoferias" name="texto.ferias" id="" cols="30" rows="16"></textarea>
+                    <img class="imglado" src="Imagem/imagem.texto.jpg" alt="">
+                </div>
+                <div">
+                    <input class="feriasenviar" type="button" value="Enviar">
+                    
+                </div>
+                
+        </form>
+
+    </div>
+        <div>
+            <h1 class="h1desenho">Desenhe como Foram sua Ferias</h1>
+        </div>
+
+    <!-- Botoes Da Tabela De Cores  -->
+
+    <main>
+        <div class="left-block">
+          <div class="cor">
+            <button type="button" value="#0000ff"></button>
+            <button type="button" value="#009fff"></button>
+            <button type="button" value="#0fffff"></button>
+            <button type="button" value="#bfffff"></button>
+            <button type="button" value="#000000"></button>
+            <button type="button" value="#333333"></button>
+            <button type="button" value="#666666"></button>
+            <button type="button" value="#999999"></button>
+            <button type="button" value="#ffcc66"></button>
+            <button type="button" value="#ffcc00"></button>
+            <button type="button" value="#ffff00"></button>
+            <button type="button" value="#ffff99"></button>
+            <button type="button" value="#003300"></button>
+            <button type="button" value="#555000"></button>
+            <button type="button" value="#00ff00"></button>
+            <button type="button" value="#99ff99"></button>
+            <button type="button" value="#f00000"></button>
+            <button type="button" value="#ff6600"></button>
+            <button type="button" value="#ff9933"></button>
+            <button type="button" value="#f5deb3"></button>
+            <button type="button" value="#330000"></button>
+            <button type="button" value="#663300"></button>
+            <button type="button" value="#cc6600"></button>
+            <button type="button" value="#deb887"></button>
+            <button type="button" value="#aa0fff"></button>
+            <button type="button" value="#cc66cc"></button>
+            <button type="button" value="#ff66ff"></button>
+            <button type="button" value="#ff99ff"></button>
+            <button type="button" value="#e8c4e8"></button>
+            <button type="button" value="#ffffff"></button>
+          </div>
+
+            <!-- Botoes Da Tabela De Linhas  -->
+
+          <div class="linhastabela">
+            <button type="button" value="1"></button>
+            <button type="button" value="2"></button>
+            <button type="button" value="3"></button>
+            <button type="button" value="4"></button>
+            <button type="button" value="5"></button>
+          </div>
+
+          <!-- Botoes De Limpar-Enviar  -->
+
+          <div class="buttons">
+            <button id="Limpar" type="button">Limpar</button>
+            <button id="Enviar" type="button">Enviar</button>
+          </div>
+        </div>
+        <div class="right-block">
+          <canvas id="canvaspintor" width="640" height="400"></canvas>
+        </div>
+      </main>
+
+             <!--H1 Imagens  -->
+
+      <h1 class="ph1">Não sei Ainda o que colocar </h1>
+
+       <!-- Imagens sobre ferias -->
+
+       <div class="linhacoluna">
+        <div class="coluna">
+          <img src="Imagem/coluna.png" alt="dormindo" style="width:100%">
+        </div>
+        <div class="coluna">
+          <img src="Imagem/coluna2.png" alt="futebol" style="width:100%">
+        </div>
+        <div class="coluna">
+          <img src="Imagem/coluna3.png" alt="brincando" style="width:100%"  >
+        </div>
+        <div class="coluna">
+            <img src="Imagem/coluna4.png"alt="videogame" style="width:100%"  >
+        </div>
+        <div class="coluna">
+            <img src="Imagem/coluna5.png" alt="familia" style="width:100% " >
+           
+        </div>
+
+            <!-- Botoes das imagens -->
+
+        <div id="perguntasimg">
+            <input type="checkbox" name="dormindo" id="idormindo">
+            <label class="pdormindo" for="dormindo">Dormindo</label>
+            <input type="checkbox" name="futebol" id="ifutebol">
+            <label class="pfutebol" for="futebol">Jogando Futebol</label>
+            <input type="checkbox" name="brincando" id="ibrincando">
+            <label class="pbrincando"for="brincando">Brincando </label>
+            <input type="checkbox" name="videogame" id="ivideogame">
+            <label class="pvideogame"for="videogame">Jogando Video Game</label>
+            <input type="checkbox" name="familia" id="ifamilia">
+            <label class="pfamilia"for="familia">Passanto Tempo com Familia</label>
+        </div>
+       
+        <div id="pbotao">
+            <button id="penviar" type="button">Enviar</button>
+        </div>
+
+
+        <!-- Footer Parte das Informaçoes- Email-Telefone ETC  -->
+
+        <div class="container">
+            <footer class="footer-container">
+               
+                <div class="footer-content-2">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><a href="#">
+                            Avenida Sete de Setembro, Suzano, São Paulo
+                        </a></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:suportewebonline@gmail.com">
+                            Suzaninho.Escola.Infantil@gmail.com
+                        </a></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p><a href="tel:11989892121">(11) 99999-9999</a></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-whatsapp"></i>
+                        <p><a href="#" target="_blank">
+                            +55 11-99999-9999
+                        </a></p>
+                    </div>
+                </div>
+
+                <!-- Sobre a Empresa -->
+
+                <div class="footer-content-3">
+                    <p class="footer-empresa">
+                        <span>Sobre a Empresa</span>
+                        Uma empresa de Educação bla bla bla bla bla 
+
+                        <!-- Icones -->
+
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>   
+                   
+                </div>       
+            </footer>
+        
+</body>
+</html>
+
